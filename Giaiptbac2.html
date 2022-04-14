@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/Giaiptbac2.css" rel="stylesheet">
+</head>
+<body>
+    <div id="banner">
+        <img src="images/Banner.chinh.jpg" width="100%">
+    </div>
+    <div class="container">
+        <h3>GIẢI PHƯƠNG TRÌNH ax<sup>2</sup> +bx + c = 0</h3>
+        <span>Số lần giải: <b id="solangiai"></b> </span>
+        <hr>
+        <form>
+        <p><label>Nhập số a:</label> <input type="text" id="a"></p>
+        <p><label>Nhập số b:</label> <input type="text" id="b"> </p>
+        <p><label>Nhập số c:</label> <input type="text" id="c"> </p>
+        <button type="button" class="nut_khoa" disabled id="btngiai" onclick="ptb2.giai()" > GIẢI PT </button>
+        <button type="button"class="nut" id="btnchoso" onclick="choso()"> CHO SỐ </button>
+        </form>
+        <div id="kq"> </div>
+        <p id="dongho">19/03/2022 10:17:08 </p>
+    </div>
+    </div>
+    <script src="js/Giaiptbac2.js"></script>
+</body>
+</html>

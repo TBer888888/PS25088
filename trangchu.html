@@ -1,0 +1,101 @@
+<html>
+    <head><title></title>
+    <style>
+        body {margin: 0; padding:0; height: 1100px;
+        
+        }
+.container{max-width:1500px;margin: 0 auto; }
+.container > header{
+    height: 10px; background-image: url('image/Screenshot\ 2022-01-14\ 175609.png');
+    background-size:100% 100%;  position: relative;
+}
+.container > nav{
+  height:45px; background:rgb(201, 3, 3); margin: 5px 0;
+}
+.container > article{
+   min-height:400px;  width:100%; max-width: fit-content; background:white; float:right;
+   margin-left: 10px;
+}
+.container > aside{
+  min-height:400px; width: 22%; float:left;
+  margin-left: 30px;
+}
+.container > footer {
+  border-top:5px double orangered;
+  line-height:50px; background-color:lightcyan; clear:both;
+
+}
+nav ul{margin: 0; padding: 0}
+            nav > ul > li{display:inline-block; position: relative;}
+            nav > ul > li > a{
+                display: block;
+                text-decoration: none;
+                color: white;
+                font-size:larger;
+                padding: 0 10px;
+                line-height: 45px;
+            }
+            nav ul ul{position: absolute; display: none;}
+            nav > ul > li:hover> ul{
+                display: block;
+                width: 180px;
+                list-style: none;
+                border-radius: 3px;
+                box-shadow: 0 0 1px gray;
+                background-color: white;
+                text-align: left;
+            }
+            nav > ul > li:hover> ul a{
+                color: darkcyan;
+                text-decoration: none;
+                font-size: larger;
+                padding: 5px 0 5px 10px;
+            
+            }
+            .container nav ul li:hover{font-weight: bold; font-style: italic;}
+
+
+
+    </style></head>
+    <body>
+        <div id="logo">
+            <center>
+                <img src="images/logo.png" width="200px">
+            </center>
+        </div>
+        <div class="tren" style="text-align: center; padding-top: 10px; padding-bottom: 10px;">
+            
+                <img src="images/anhvui.jpg" height="auto" text-align="center">
+            
+        </div>
+        <div class="container">
+        <header> </header>
+        <nav><ul>
+            <li><a href="index.html" target="page">Sản Phẩm</a></li>   
+            <li><a href="cart.html" target="page">Giỏ Hàng</a></li>
+            <li><a href="Gallery.html" target="page">Ảnh Ảo </a></li>
+            <li><a href="Register.html" target="page">Đăng ký</a></li>
+            <li><a href="Selling.html" target="page">Bán Hàng</a></li>
+            <li><a href="Giaiptbac2.html" target="page">Giải PT</a></li>
+        </ul>
+        </nav>
+        <article>
+            <iframe src="images/anhbia.jpg"
+            width="1500px" height="100%" name="page"><a href="https://tuoitre.vn/"></a></iframe>
+        </article>
+    <footer>
+        <table border="3">
+        <p><td><p>GVHD:<b>HỒ THỊ HỒNG NGA</b>
+            <br>Lớp:<b>IT1727_3</b> 
+           <br> Họ tên : <b>Bùi Tấn Tín</b>
+             <br>
+           Email: <b>tinbtps25088@fpt.edu.vn</b>  <br>
+           Mã sinh viên: <b>PS25088</b> <br> <br>
+           
+        
+        </td>
+    </table>
+    </footer>
+</div>
+</body>
+</html>
